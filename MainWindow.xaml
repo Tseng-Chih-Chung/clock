@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txtTime" HorizontalAlignment="Left" Height="90" Margin="160,48,0,0" TextWrapping="Wrap" Text="時間" VerticalAlignment="Top" Width="471" FontSize="30"/>
+        <TextBox x:Name="txtDate" HorizontalAlignment="Left" Height="90" Margin="160,143,0,0" TextWrapping="Wrap" Text="日期" VerticalAlignment="Top" Width="303" FontSize="30"/>
+        <TextBox x:Name="txtWeekDay" HorizontalAlignment="Left" Height="90" Margin="468,143,0,0" TextWrapping="Wrap" Text="星期幾" VerticalAlignment="Top" Width="163" FontSize="30"/>
+        <Button x:Name="btnSetAlert" Content="設定鬧鐘" HorizontalAlignment="Left" Height="34" Margin="160,238,0,0" VerticalAlignment="Top" Width="91" FontSize="20"/>
+        <Button x:Name="btnCancelAlert" Content="取消鬧鐘" HorizontalAlignment="Left" Height="34" Margin="256,238,0,0" VerticalAlignment="Top" Width="91" FontSize="20"/>
+        <ComboBox x:Name="cmbHour" HorizontalAlignment="Left" Height="34" Margin="160,277,0,0" VerticalAlignment="Top" Width="91" FontSize="20"/>
+        <MediaElement x:Name="meSound" HorizontalAlignment="Left" Height="172" Margin="352,238,0,0" VerticalAlignment="Top" Width="279"/>
+        <ComboBox x:Name="cmbMin" HorizontalAlignment="Left" Height="34" Margin="256,277,0,0" VerticalAlignment="Top" Width="91" FontSize="20"/>
+
     </Grid>
 </Window>
